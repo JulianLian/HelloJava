@@ -15,12 +15,17 @@ public class Game {
         int score = 0;
         int rollIndex = 0;
         for (int frame = 0; frame < 10; frame++) {
-            if (isSpare(rollIndex)) {
-                score += 10 + rolls[rollIndex+2];
-                rollIndex += 2;
+            if (rolls[rollIndex] == 10) {
+                score += 10 + rolls[rollIndex+1] + rolls[rollIndex+2];
+                rollIndex += 1;
             } else {
-                score += rolls[rollIndex] + rolls[rollIndex + 1];
-                rollIndex += 2;
+                if (isSpare(rollIndex)) {
+                    score += 10 + rolls[rollIndex + 2];
+                    rollIndex += 2;
+                } else {
+                    score += rolls[rollIndex] + rolls[rollIndex + 1];
+                    rollIndex += 2;
+                }
             }
         }
         return score;
