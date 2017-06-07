@@ -35,12 +35,12 @@ public class GameXTest {
         assertEquals(20, gameX.score());
     }
 
-//    @Test
-//    public void testOneSpare() throws Exception {
-//        gameX.roll(6);
-//        gameX.roll(4); // spare
-//        gameX.roll(3);
-//        rollMany(17, 0);
-//        assertEquals(16, gameX.score());
-//    }
+    @Test
+    public void testOneSpare() throws Exception {
+        gameX.roll(6);
+        gameX.roll(4); // spare
+        gameX.roll(3);
+        rollMany(17, 0);
+        assertEquals(16, gameX.score());
+    }
 }
