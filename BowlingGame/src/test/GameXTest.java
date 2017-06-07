@@ -37,10 +37,33 @@ public class GameXTest {
 
     @Test
     public void testOneSpare() throws Exception {
-        gameX.roll(6);
-        gameX.roll(4); // spare
+        rollSpare();
         gameX.roll(3);
         rollMany(17, 0);
         assertEquals(16, gameX.score());
+    }
+
+    @Test
+    public void testOneStrike() throws Exception {
+        rollStrike();
+        gameX.roll(4);
+        gameX.roll(3);
+        rollMany(16, 0);
+        assertEquals(24, gameX.score());
+    }
+
+    private void rollStrike() {
+        gameX.roll(10);
+    }
+
+    private void rollSpare() {
+        gameX.roll(6);
+        gameX.roll(4);
+    }
+
+    @Test
+    public void testPerfectGame() throws Exception {
+        rollMany(12, 10);
+        assertEquals(300, gameX.score());
     }
 }
