@@ -19,17 +19,19 @@ public class GameXTest {
 
     @Test
     public void testAllZeroes() throws Exception {
-        for (int i = 0; i < 20; i++) {
-            gameX.roll(0);
-        }
+        rollMany(20, 0);
         assertEquals(0, gameX.score());
+    }
+
+    private void rollMany(int times, int pins) {
+        for (int i = 0; i < times; i++) {
+            gameX.roll(pins);
+        }
     }
 
     @Test
     public void testAllOnes() throws Exception {
-        for (int i = 0; i < 20; i++) {
-            gameX.roll(1);
-        }
+        rollMany(20, 1);
         assertEquals(20, gameX.score());
     }
 }
