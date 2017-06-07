@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="6fefc57f-55f7-47a6-80b2-3154f5d3055d" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BowlingGame/src/main/GameX.java" afterPath="$PROJECT_DIR$/BowlingGame/src/main/GameX.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BowlingGame/src/test/GameXTest.java" afterPath="$PROJECT_DIR$/BowlingGame/src/test/GameXTest.java" />
     </list>
     <ignored path="HelloJava.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -1017,7 +1015,7 @@
       <workItem from="1494943829619" duration="5000" />
       <workItem from="1495955691063" duration="15789000" />
       <workItem from="1496846663447" duration="23000" />
-      <workItem from="1496846740296" duration="2124000" />
+      <workItem from="1496846740296" duration="2148000" />
     </task>
     <task id="LOCAL-00001" summary="1st testcase">
       <created>1496847247516</created>
@@ -1047,7 +1045,14 @@
       <option name="project" value="LOCAL" />
       <updated>1496848068424</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="3rd testcase PASS and refactor">
+      <created>1496848886513</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1496848886513</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1083,7 +1088,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="69629000" />
+    <option name="totallyTimeSpent" value="69653000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="773" extended-state="6" />
@@ -1142,7 +1147,8 @@
     <MESSAGE value="1st testcase" />
     <MESSAGE value="2nd testcase and refactor" />
     <MESSAGE value="refactor for 3rd testcase" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactor for 3rd testcase" />
+    <MESSAGE value="3rd testcase PASS and refactor" />
+    <option name="LAST_COMMIT_MESSAGE" value="3rd testcase PASS and refactor" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
