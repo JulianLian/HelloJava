@@ -47,4 +47,23 @@ public class GameTest {
         g.roll(6);
         g.roll(4);
     }
+
+    @Test
+    public void testOneStrike() throws Exception {
+        rollStrike();
+        g.roll(3);
+        g.roll(4);
+        rollMany(16, 0);
+        assertEquals(24, g.score());
+    }
+
+    private void rollStrike() {
+        g.roll(10);
+    }
+
+    @Test
+    public void testPerfectGame() throws Exception {
+        rollMany(12, 10);
+        assertEquals(300, g.score());
+    }
 }
