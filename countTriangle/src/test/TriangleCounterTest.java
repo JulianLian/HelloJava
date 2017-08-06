@@ -92,7 +92,7 @@ public class TriangleCounterTest {
     }
 
     @Test
-    public void test30Trianle() {
+    public void test24Trianle() {
         List<String> ls = new ArrayList<>();
         ls.add("afb");
         ls.add("aic");
@@ -102,6 +102,6 @@ public class TriangleCounterTest {
         ls.add("fghi");
         ls.add("bjki");
         tc.setLines(ls);
-        assertEquals(30, tc.count('a','b','c','d','e','f','g','h','i','j','k'));
+        assertEquals(24, tc.count('a','b','c','d','e','f','g','h','i','j','k'));
     }
 }
