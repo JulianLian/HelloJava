@@ -2,5 +2,4 @@
 *.class
 *.xml___jb_tmp___
 *.class
-*.class
-out/production/BowlingGame/main/Game.class
+.idea/sonarlint/
