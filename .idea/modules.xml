@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/BowlingGame/BowlingGame.iml" filepath="$PROJECT_DIR$/BowlingGame/BowlingGame.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HeadFirstOOAD/HeadFirstOOAD.iml" filepath="$PROJECT_DIR$/HeadFirstOOAD/HeadFirstOOAD.iml" />
       <module fileurl="file://$PROJECT_DIR$/HelloJava.iml" filepath="$PROJECT_DIR$/HelloJava.iml" />
       <module fileurl="file://$PROJECT_DIR$/calculator/calculator.iml" filepath="$PROJECT_DIR$/calculator/calculator.iml" />
     </modules>

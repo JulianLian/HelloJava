@@ -3,17 +3,47 @@
   <component name="issues">
     <option name="index">
       <map>
-        <entry key="$PROJECT_DIR$/.gitignore">
+        <entry key="$PROJECT_DIR$/headfirstooan/src/Guitar.java">
           <value>
             <set />
           </value>
         </entry>
-        <entry key="$PROJECT_DIR$/BowlingGame/src/main/Game.java">
+        <entry key="$PROJECT_DIR$/headfirstooan/src/guitar/Builder.java">
           <value>
             <set />
           </value>
         </entry>
-        <entry key="$PROJECT_DIR$/BowlingGame/src/test/GameTest.java">
+        <entry key="$PROJECT_DIR$/headfirstooan/src/guitar/GuitaiSpec.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/headfirstooan/src/guitar/Guitar.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/headfirstooan/src/guitar/GuitarFinderTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/headfirstooan/src/guitar/GuitarSpec.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/headfirstooan/src/guitar/Inventory.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/headfirstooan/src/guitar/Type.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/headfirstooan/src/guitar/Wood.java">
           <value>
             <set />
           </value>
