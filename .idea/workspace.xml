@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6fefc57f-55f7-47a6-80b2-3154f5d3055d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HelloJava.iml" afterPath="$PROJECT_DIR$/HelloJava.iml" />
-    </list>
+    <list default="true" id="6fefc57f-55f7-47a6-80b2-3154f5d3055d" name="Default" comment="" />
     <ignored path="HelloJava.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -29,7 +25,7 @@
         <entry file="file://$PROJECT_DIR$/BowlingGame/src/test/GameTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="291">
-              <caret line="47" column="71" lean-forward="true" selection-start-line="47" selection-start-column="71" selection-end-line="47" selection-end-column="71" />
+              <caret line="47" column="18" lean-forward="false" selection-start-line="47" selection-start-column="18" selection-end-line="47" selection-end-column="18" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -63,7 +59,7 @@
         <entry file="file://$PROJECT_DIR$/BowlingGame/src/main/Game.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="420">
-              <caret line="17" column="85" lean-forward="true" selection-start-line="17" selection-start-column="85" selection-end-line="17" selection-end-column="85" />
+              <caret line="17" column="38" lean-forward="false" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
               <folding>
                 <element signature="e#804#805#0" expanded="true" />
                 <element signature="e#849#850#0" expanded="true" />
@@ -913,7 +909,7 @@
       <workItem from="1508629826159" duration="19000" />
       <workItem from="1511609377174" duration="112000" />
       <workItem from="1511609567793" duration="1409000" />
-      <workItem from="1511611039186" duration="1027000" />
+      <workItem from="1511611039186" duration="1539000" />
     </task>
     <servers />
   </component>
@@ -950,7 +946,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="73012000" />
+    <option name="totallyTimeSpent" value="73524000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1218" extended-state="1" />
@@ -1374,7 +1370,7 @@
     <entry file="file://$PROJECT_DIR$/BowlingGame/src/main/Game.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
-          <caret line="17" column="85" lean-forward="true" selection-start-line="17" selection-start-column="85" selection-end-line="17" selection-end-column="85" />
+          <caret line="17" column="38" lean-forward="false" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
           <folding>
             <element signature="e#804#805#0" expanded="true" />
             <element signature="e#849#850#0" expanded="true" />
@@ -1385,7 +1381,7 @@
     <entry file="file://$PROJECT_DIR$/BowlingGame/src/test/GameTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="291">
-          <caret line="47" column="71" lean-forward="true" selection-start-line="47" selection-start-column="71" selection-end-line="47" selection-end-column="71" />
+          <caret line="47" column="18" lean-forward="false" selection-start-line="47" selection-start-column="18" selection-end-line="47" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
