@@ -1,11 +1,13 @@
 package longestIncreasingSequence;
 
-import java.util.ArrayList;
-import java.util.List;
-
 /**
  * Created by Julian on 2017/8/4.
  */
+
+/**
+ * Time Limit Exceed
+ */
+/*
 public class LongestIncreasingSubsequence {
 
     public int lengthOfLIS(int nums[]) {
@@ -50,5 +52,28 @@ public class LongestIncreasingSubsequence {
         int getLength() {
             return length;
         }
+    }
+}
+*/
+
+/**
+ * dynamic programming
+ */
+public class LongestIncreasingSubsequence {
+    public int lengthOfLIS(int nums[]) {
+        int dp[] = new int[nums.length];
+
+        for (int i = 0; i < nums.length; i++) {
+            dp[i] = 1;
+            for (int j = 0; j < i; j++) {
+                dp[i] = (nums[i] > nums[j]) ? ((dp[i] < dp[j]+1) ? (dp[j] + 1) : dp[i]) : dp[i];
+            }
+        }
+
+        int maxLen = 0;
+        for (int len : dp){
+            maxLen = (maxLen < len) ? len : maxLen;
+        }
+        return maxLen;
     }
 }
