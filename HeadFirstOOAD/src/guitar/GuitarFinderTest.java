@@ -17,7 +17,7 @@ public class GuitarFinderTest {
                                           new GuitarSpec(Builder.FENDER, "Stratocastor", Type.ELECTIC, 12, Wood.ALDER, Wood.ALDER)));
     }
     @Test
-    public void testSearch() throws Exception {
+    public void testSearch() {
         GuitarSpec searchSpec = new GuitarSpec(Builder.FENDER, "Stratocastor", Type.ELECTIC, 12, Wood.ALDER, Wood.ALDER);
 
         List<Guitar> guitars = inventory.search(searchSpec);
