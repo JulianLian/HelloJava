@@ -12,45 +12,42 @@ public class AddTwoNumbers {
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         int carry = 0;
         int temp;
-        ListNode preNode = l1;
-        ListNode head = preNode;
+        ListNode head = new ListNode(0);
+        ListNode curNode = head;
 
-        do {
+        while (l1 != null && l2 != null) {
             temp = l1.val + l2.val + carry;
             if (temp >= 10) {
-                l1.val = temp - 10;
+                temp -= 10;
                 carry = 1;
             } else {
-                l1.val = temp;
                 carry = 0;
             }
-
-            preNode = l1;
+            curNode.next = new ListNode(temp);
+            curNode = curNode.next;
             l1 = l1.next;
             l2 = l2.next;
-        } while (l1 != null && l2 != null);
+        }
 
         l1 = (l1 != null) ? l1 : l2;
-        preNode.next = l1;
-        while (l1 != null && carry != 0) {
+        while (l1 != null) {
             temp = l1.val + carry;
             if (temp >= 10) {
-                l1.val = temp - 10;
+                temp -= 10;
                 carry = 1;
             } else {
-                l1.val = temp;
                 carry = 0;
             }
 
-            preNode = l1;
+            curNode.next = new ListNode(temp);
+            curNode = curNode.next;
             l1 = l1.next;
         }
 
         if (carry != 0){
-            preNode.next = new ListNode(carry);
-            preNode.next.next = null;
+            curNode.next = new ListNode(carry);
         }
 
-        return head;
+        return head.next;
     }
 }
