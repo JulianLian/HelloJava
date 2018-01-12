@@ -17,8 +17,14 @@ public class AddTwoNumbers {
 
         do {
             temp = l1.val + l2.val + carry;
-            l1.val = temp % 10;
-            carry =  temp / 10;
+            if (temp >= 10) {
+                l1.val = temp - 10;
+                carry = 1;
+            } else {
+                l1.val = temp;
+                carry = 0;
+            }
+
             preNode = l1;
             l1 = l1.next;
             l2 = l2.next;
@@ -28,8 +34,14 @@ public class AddTwoNumbers {
         preNode.next = l1;
         while (l1 != null && carry != 0) {
             temp = l1.val + carry;
-            l1.val = temp % 10;
-            carry = temp / 10;
+            if (temp >= 10) {
+                l1.val = temp - 10;
+                carry = 1;
+            } else {
+                l1.val = temp;
+                carry = 0;
+            }
+
             preNode = l1;
             l1 = l1.next;
         }
