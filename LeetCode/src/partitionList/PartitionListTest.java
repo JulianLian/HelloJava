@@ -14,22 +14,23 @@ public class PartitionListTest {
         pl = new PartitionList();
     }
 
-//    @Test
-//    public void testNullList() {
-//        assertEquals(null, pl.partition(null, 0));
-//    }
-//
-//    @Test
-//    public void testJust1Element() {
-//        assertEquals(new ListNode(1), pl.partition(new ListNode(1), 0));
-//    }
+    @Test
+    public void testNullList() {
+        assertEquals(null, pl.partition(null, 0));
+    }
+
+    @Test
+    public void testJust1Element() {
+        assertEquals(new ListNode(1), pl.partition(new ListNode(1), 0));
+    }
 
     @Test
     public void testList21X1() {
         ListNode origin = new ListNode(2);
         origin.next = new ListNode(1);
-        ListNode expcet = new ListNode(1);
-        expcet.next = new ListNode(2);
-        assertEquals(expcet, pl.partition(origin, 2));
+        ListNode expect = new ListNode(1);
+        expect.next = new ListNode(2);
+        assertEquals(expect, pl.partition(origin, 2));
+        assertEquals(origin, pl.partition(origin, 1));
     }
 }

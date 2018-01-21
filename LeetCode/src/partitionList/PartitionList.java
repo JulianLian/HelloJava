@@ -15,15 +15,14 @@ public class PartitionList {
             if (head.val < x) {
                 l.next = head;
                 l = head;
-                head = head.next;
             } else {
                 ge.next = head;
                 ge = head;
-                head = head.next;
-                ge.next = null;
             }
+            head = head.next;
         }
 
+        ge.next = null;
         l.next = geHead.next;
         System.out.println("Resumption: " + (System.nanoTime() - start));
         return lHead.next;
