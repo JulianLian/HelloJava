@@ -1,5 +1,7 @@
 
 *.class
+*.xml
 *.xml___jb_tmp___
-*.class
 .idea/sonarlint/
+!/out/
+!/.idea/
