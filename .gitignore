@@ -4,3 +4,5 @@
 *.xml___jb_tmp___
 .idea/
 out/
+!/out/
+!/.idea/
